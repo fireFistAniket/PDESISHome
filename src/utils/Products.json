@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "imgUri": "/product-1.png",
+    "title": "PD-AHD-L14-101848",
+    "description": "1/4\" HD-CMOS IR Outdoor Camera(Weatherproof) HD@720P 3.6mm MP HD Lens 48IR LED/upto 40Mtr Back Light Compensation"
+  },
+  {
+    "id": 2,
+    "imgUri": "/product-2&7.png",
+    "title": "PD-AHD-L14-13ID-AR-6",
+    "description": "PD-AHD-L14-13ID-AR-6 1/3\" HD-CMOS IR Dome Camera HD@960P 3.6mm MP HD Lens 6-Arra IR LED / up to 20-30 Mtr Back Light Compensation"
+  },
+  {
+    "id": 3,
+    "imgUri": "/product-3&4.png",
+    "title": "PD-AHD-L14-20AR-A4",
+    "description": "11/2.9\" HD-CMOS IR Outdoor Camera (Weatherproof) HD@960P, CS Lens 8mm, 4Array IR LED/upto 80-100Mtr, Back Light Compensation"
+  },
+  {
+    "id": 4,
+    "imgUri": "/product-3&4.png",
+    "title": "PD-IP-L14-96AR-A4",
+    "description": "1/3\" HD-CMOS CS Lens 8mm (6, 16mm Optional) IR Distance up to 80-100Mtr. IR Array Weatherproof (Outdoor) 4IR Array LED"
+  },
+  {
+    "id": 5,
+    "imgUri": "/product-5.png",
+    "title": "PD-IP-L14-108IB-AR6",
+    "description": "1/2.9\" HD-CMOS 3.6mm MP HD Lens IR Distance up to 20-30Mtr. IR Outdoor Camera (Weatherproof) 6-IR Array LED/up to 20-30Mtr."
+  },
+  {
+    "id": 6,
+    "imgUri": "/product-6.png",
+    "title": "PD-IP-L14-3081B84-UL",
+    "description": "1/3\" AR0330 HD-CMOS CS Lens 6mm IR Distance up to 60Mtr. IR Outdoor Camera (Weatherproof) 84IR LED/up to 60Mtr."
+  },
+  {
+    "id": 7,
+    "imgUri": "/product-2&7.png",
+    "title": "PD-IP-L14-5081884-UL",
+    "description": "1/2.5\" HD-CMOS CS Lens 6mm, IR Distance up to 60Mtr. IR Outdoor Camera (Weatherproof) 84IR LED / up to 60Mtr."
+  },
+  {
+    "id": 8,
+    "imgUri": "/product-8&9.png",
+    "title": "PD-AHD-G15-13PTZ36X",
+    "description": "1/3\" HD CMOS Horizontal Resolution (960P, 1280x960) 6+1 Big Size IR(Distance up to 150Mtr.) 36X Optical Zoom IP 66 Weather Proof 360 Unlimited Rotation"
+  },
+  {
+    "id": 9,
+    "imgUri": "/product-8&9.png",
+    "title": "PD-IPC-L14-PTZ1336",
+    "description": "1.3 MP HD CMOS Horizontal Resolution (960P, 1080x960) 6+1 Array LED (Distance up to 150mtr.) 36X Optical Zoom IP 66 Weather Proof 360 Unlimited Rotation"
+  },
+  {
+    "id": 10,
+    "imgUri": "/product-10.png",
+    "title": "PD-IP-L14-96NPR-VF",
+    "description": "1/3\" Aptina 130 CMOS Number Plate Reader 6-15 mm vari-focal Lens 2 Array WLED / 20-30 mtr.. IP 66, Weatherproof Outdoor 1.3 MP"
+  },
+  {
+    "id": 11,
+    "imgUri": "/product-11.png",
+    "title": "04CH AHD DVR PD-AHD-40401108",
+    "description": "Support 1080 recording Encoding Two high-speed USB2.0 interfaces Upto 4TB SATA Interface HDD*1 Backup, Mobile Monitoring, PTZ Control Support, Android, iPhone, Mac Support LINUX Operating System"
+  },
+  {
+    "id": 12,
+    "imgUri": "/product-12.png",
+    "title": "4CH NVR PD-NVR-8104 ",
+    "description": "Support 1080 recording Encoding Two high-speed USB2.0 interfaces Upto 4TB SATA Interface HDD*1 Backup, Mobile Monitoring, PTZ Control Support, Android, iPhone, Mac Support ONVIF Protocol"
+  }
+]

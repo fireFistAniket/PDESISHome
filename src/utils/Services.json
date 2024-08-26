@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "imgUri": "/service-1.png",
+    "title": "Surveillance Solution",
+    "description": "Surveillance cameras (also known as Closed-Circuit Television or CCTV) are used to monitor public and private spaces..."
+  },
+  {
+    "id": 2,
+    "imgUri": "/service-2.png",
+    "title": "Hybrid IT Solutions",
+    "description": "Network Infrastructure IT Procurement, Deployment and Commissioning"
+  },
+  {
+    "id": 3,
+    "imgUri": "/service-3.png",
+    "title": "Conferencing Solutions",
+    "description": "New Age conference call services enable seamless connectivity and collaboration with business associates..."
+  },
+  {
+    "id": 4,
+    "imgUri": "/service-4.png",
+    "title": "Building Automation Solutions",
+    "description": "As a Smart Building Solutions Provider, PDESIS provides advanced Building Automation Technology aimed at achieving..."
+  }
+]

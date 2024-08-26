@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "bgUri": "/why-choose-1.jpg",
+    "title": "Passion",
+    "description": "Our assurance to Procure & Deploy Efficient Surveillance & IT Security Solutions reflects in our team's effective management through (i) our positive and creative work attitude (ii) our appetite for Technological advancement, Top Notch Services and Innovations (iii) our aims of Introducing and Implementing Usable Solutions and making them Accessible to all. Our team comprises intense, driven and passionate individuals focussed to Redefining Smart Security and Fostering Sustainable Innovation."
+  },
+  {
+    "id": 2,
+    "bgUri": "/why-choose-2.jpg",
+    "title": "Customer Oriented Approach",
+    "description": "Understanding your requirement is our prime priority. Based on such requirements, we strive to customise and incorporate Innovative Solutions and achieve every inch of the requirement exactly as expected by you. Since our inception, we have worked tirelessly to ensure that you are happy with our Products, Solutions and Services."
+  },
+  {
+    "id": 3,
+    "bgUri": "/why-choose-3.jpg",
+    "title": "Quality Assurance",
+    "description": "Technology advancement drives us to excellence. We believe in Innovation and want you along to travel with time. The Quality Management System of PDESIS has been assessed and has been found to be in compliance with the requirements of the standard IS0 9001: 2015. Quality is uncompromisable and we have always worked with this belief. If we can't make use of our products, solutions or services, neither can you."
+  },
+  {
+    "id": 4,
+    "bgUri": "/why-choose-4.jpg",
+    "title": "Sustainability",
+    "description": "We believe in Sustainable and holistic growth which needs to be achieved as a team. For us, sustainability basically relates to fostering innovation and resilient infrastructure, creating communities and cities to be able to produce and consume sustainably. PDESIS holds a certificate of Compliance for Restriction for the use of certain Hazardous Substances (ROHS) in LVD 2006/95/EC and EMD 2004/108/EC which reaffirms our Sustainability Quotient."
+  }
+]
