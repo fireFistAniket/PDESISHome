@@ -1,50 +1,38 @@
-# React + TypeScript + Vite
+![firefistaniket github io_PDESISHome_](https://github.com/user-attachments/assets/ebacb711-b420-4d01-81a1-1fcf1ce88a8c)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# PDESISHome
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation and Running the App
 
-## Expanding the ESLint configuration
+Follow these steps to run PDESISHome on your local machine:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+1. **Clone the Repository:**
+```bash
+  git clone https://github.com/fireFistAniket/PDESISHome.git
+  cd PDESISHome
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+2. **Install Dependencies:**
+Make sure you have Node.js and npm installed. Then run:
+```bash
+  npm install
 ```
+3. **Start the Vite Server:**
+```bash
+  npm run dev
+```
+
+## Technologies and Libraries Used
+
+- React: For building frontend UI.
+
+- Tailwind CSS: For easier development and building CSS framework.
+
+- react-icons: For using vector icons in the app.
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
