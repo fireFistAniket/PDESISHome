@@ -2,7 +2,7 @@ import { FaCheckSquare } from "react-icons/fa";
 
 const About = () => {
   return (
-    <main className="flex gap-[2vmax] justify-center mx-[3.5vw] my-[3vw]">
+    <main className="flex flex-col sm:flex-row gap-[2vmax] justify-center mx-[3.5vw] my-[3vw]">
       <div className="grid grid-cols-2 items-stretch gap-[2vmin] relative">
         <div className="absolute inset-0 flex justify-center items-center">
           <div className="border-2 rounded-full border-white p-[2vmax] border-dashed">
@@ -22,28 +22,28 @@ const About = () => {
           src="/PDESISHome/about-1.png"
           alt="about-pdesis"
           width={853}
-          className="w-[20vw]"
+          className="sm:w-[20vw]"
         />
         <img
           src="/PDESISHome/about-2.png"
           alt="about-pdesis"
           width={853}
-          className="w-[20vw]"
+          className="sm:w-[20vw]"
         />
         <img
           src="/PDESISHome/about-3.png"
           alt="about-pdesis"
           width={853}
-          className="w-[20vw]"
+          className="sm:w-[20vw]"
         />
         <img
           src="/PDESISHome/about-4.png"
           alt="about-pdesis"
           width={853}
-          className="w-[20vw]"
+          className="sm:w-[20vw]"
         />
       </div>
-      <div className="flex flex-col items-start max-w-[45vw] justify-between">
+      <div className="flex flex-col items-start sm:max-w-[45vw] justify-between">
         <h1 className="text-[1.5vmax] font-bold text-secondary">
           About <span className="text-primary">PD</span>ESIS
         </h1>

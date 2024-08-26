@@ -6,6 +6,7 @@ import ChooseCardData from "./utils/why-choose.json";
 import ServicesData from "./utils/Services.json";
 import ProductCard from "./components/ProductCard";
 import ProducstsData from "./utils/Products.json";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -20,43 +21,45 @@ function App() {
           height={514}
         />
       </div>
-      <div className="flex items-center justify-between mx-[3.5vw] my-[3vw]">
+      <div className="flex items-center justify-between mx-[3.5vw] my-[3vw] gap-[2vmax]">
         <h3 className="text-secondary font-bold text-[2.5vmax]">Our Brands</h3>
-        <div className="flex items-center justify-center bg-white border-main border px-[2vmax] py-[1.5vmax] rounded">
-          <img
-            src="/PDESISHome/amd-brand.png"
-            alt="amd"
-            width={160}
-            height={79}
-            className="w-[8.33vw]"
-          />
-        </div>
-        <div className="flex items-center justify-center bg-white border-main border px-[2vmax] py-[1.5vmax] rounded">
-          <img
-            src="/PDESISHome/honeywell-brand.png"
-            alt="amd"
-            width={160}
-            height={79}
-            className="w-[8.33vw]"
-          />
-        </div>
-        <div className="flex items-center justify-center bg-white border-main border px-[2vmax] py-[1.5vmax] rounded">
-          <img
-            src="/PDESISHome/microsoft-brand.png"
-            alt="amd"
-            width={160}
-            height={79}
-            className="w-[8.33vw]"
-          />
-        </div>
-        <div className="flex items-center justify-center bg-white border-main border px-[2vmax] py-[1.5vmax] rounded">
-          <img
-            src="/PDESISHome/lenovo-brand.png"
-            alt="amd"
-            width={160}
-            height={79}
-            className="w-[8.33vw]"
-          />
+        <div className="flex flex-wrap sm:flex-nowrap sm:items-center sm:justify-evenly gap-[2vmin] flex-1">
+          <div className="flex items-center justify-center bg-white border-main border px-[2vmax] py-[1.5vmax] rounded">
+            <img
+              src="/PDESISHome/amd-brand.png"
+              alt="amd"
+              width={160}
+              height={79}
+              className="w-[8.33vw]"
+            />
+          </div>
+          <div className="flex items-center justify-center bg-white border-main border px-[2vmax] py-[1.5vmax] rounded">
+            <img
+              src="/PDESISHome/honeywell-brand.png"
+              alt="amd"
+              width={160}
+              height={79}
+              className="w-[8.33vw]"
+            />
+          </div>
+          <div className="flex items-center justify-center bg-white border-main border px-[2vmax] py-[1.5vmax] rounded">
+            <img
+              src="/PDESISHome/microsoft-brand.png"
+              alt="amd"
+              width={160}
+              height={79}
+              className="w-[8.33vw]"
+            />
+          </div>
+          <div className="flex items-center justify-center bg-white border-main border px-[2vmax] py-[1.5vmax] rounded">
+            <img
+              src="/PDESISHome/lenovo-brand.png"
+              alt="amd"
+              width={160}
+              height={79}
+              className="w-[8.33vw]"
+            />
+          </div>
         </div>
       </div>
       <About />
@@ -74,7 +77,7 @@ function App() {
           requirements, we strive to customise and incorporate Innovative
           Solutions.
         </p>
-        <div className="grid grid-cols-2 gap-[1.5vmax] justify-between">
+        <div className="grid grid-flow-row sm:grid-cols-2 gap-[1.5vmax] justify-between">
           {ChooseCardData.map((item) => (
             <WhyChoose
               key={item.id}
@@ -131,7 +134,7 @@ function App() {
           ))}
         </div>
       </div>
-      <div className="flex-1 bg-main border-main border shadow-main">App</div>
+      <Footer />
     </>
   );
 }

@@ -7,10 +7,10 @@ const Navbar = () => {
           alt="logo"
           width={79}
           height={96}
-          className="w-[4.15vw]"
+          className="w-[6.5vw] sm:w-[4.15vw]"
         />
       </div>
-      <ul className="flex items-center gap-[2vmax]">
+      <ul className="sm:flex items-center gap-[2vmax] hidden">
         <li className="text-[1.44vmax] font-semibold text-secondary hover:text-primary">
           <a href="#">Home</a>
         </li>
@@ -24,7 +24,12 @@ const Navbar = () => {
           <a href="#">Our Products &amp; Services</a>
         </li>
       </ul>
-      <a href="#" className="text-[1.44vmax] font-semibold bg-primary text-white capitalize py-1 px-[1.44vmax] rounded-full">contact us</a>
+      <a
+        href="#"
+        className="text-[1.44vmax] font-semibold bg-primary text-white capitalize py-1 px-[1.44vmax] rounded-full"
+      >
+        contact us
+      </a>
     </nav>
   );
 };
